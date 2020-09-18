@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-14T10:40:36.003Z",
+        "line": 3,
+        "name": "scenario Vlaide Google Serach Function",
+        "description": "",
+        "id": "feature-test-the-google-functionality;scenario-vlaide-google-serach-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15773000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser Is opened",
+            "match": {
+              "location": "StepDefinitions.GoogleSearch.browser_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3044000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is On google Search Page",
+            "match": {
+              "location": "StepDefinitions.GoogleSearch.user_is_on_google_search_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7703000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter text",
+            "match": {
+              "location": "StepDefinitions.GoogleSearch.enter_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Enter",
+            "match": {
+              "location": "StepDefinitions.GoogleSearch.click_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3486000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the All the Links",
+            "match": {
+              "location": "StepDefinitions.GoogleSearch.validate_the_all_the_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature test the google Functionality",
+    "description": "",
+    "id": "feature-test-the-google-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Googleform.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-14T10:41:06.812Z",
+        "line": 3,
+        "name": "Check the Login and Logout Functionality",
+        "description": "",
+        "id": "feature-testing-the-functionality-of-acti-time;check-the-login-and-logout-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefinitions.Actitimelogin.open_the_browser(Actitimelogin.java:22)\r\n\tat ✽.open the browser(file:///D:/MavenTestData/BehaviroulDrivenDevelopmentPoject/src/test/resources/Features/actiLogin.feature:4)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDefinitions.Actitimelogin.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Switch to Application",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter UserName and passWord",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on enter",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "open Home Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature Testing The Functionality of Acti-time",
+    "description": "",
+    "id": "feature-testing-the-functionality-of-acti-time",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/actiLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-14T10:41:06.935Z",
+        "line": 3,
+        "name": "check the login Functionality",
+        "description": "",
+        "id": "feature-test-the-application;check-the-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enter UserName And Password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is Navigated To the HomePage",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature Test the Application",
+    "description": "",
+    "id": "feature-test-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/demo1.feature",
+    "tags": []
+  }
+]
